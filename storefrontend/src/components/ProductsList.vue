@@ -60,6 +60,7 @@ export default {
         .get('http://localhost:5110/GetProducts')
         .then(response => {
           this.products = response.data
+          this.$store.dispatch('updateCarAction')
           this.loading = false
           this.errored = false
         })
