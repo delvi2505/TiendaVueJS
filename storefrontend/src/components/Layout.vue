@@ -1,8 +1,8 @@
 <template>
   <div class="LayoutDefault">
-    <MyNavBar/>
+    <my-nav-bar/>
     <main class="LayoutDefault__main">
-      <Car/>
+      <car/>
       <slot/>
     </main>
     <footer class="LayoutDefault__footer">

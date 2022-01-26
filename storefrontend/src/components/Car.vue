@@ -11,8 +11,8 @@
         <img v-bind:src="urlImage" width="100" height="100"/>
       </router-link>
       <div>
-        <span class="tag is-success is-medium is-rounded">{{car.cantProductos}} Art.</span>
-        <span class="tag is-primary is-medium is-rounded">RD$ {{car.totalApagar}}</span>
+        <span class="tag is-success is-medium is-rounded">{{this.$store.getters.getCar.cantProductos}} Art.</span>
+        <span class="tag is-primary is-medium is-rounded">RD$ {{this.$store.getters.getCar.totalApagar}}</span>
       </div>
     </div>
   </div>
@@ -46,7 +46,6 @@ export default {
         axios
           .get('http://localhost:5110/GetCar/' + this.customer.id)
           .then(response => {
-            this.car = response.data
             this.loading = false
             this.errored = false
           })
