@@ -82,6 +82,7 @@ export default {
           this.errored = false
           if (response.data === 'OK') {
             this.getProducts()
+            this.$store.dispatch('updateCarAction')
           } else {
             alert(response.data)
           }
@@ -101,6 +102,7 @@ export default {
           this.errored = false
           if (response.data === 'OK') {
             this.getProducts()
+            this.$store.dispatch('updateCarAction')
           } else {
             alert(response.data)
           }

@@ -2,10 +2,10 @@
   <layout>
     <div>
       <div v-if="errored">
-        <error/>
+        <Error/>
       </div>
       <div v-else-if="loading">
-        <charging/>
+        <Charging/>
       </div>
       <div v-else>
         <img v-bind:src="product.urlImagen" width="200" height="200">
@@ -14,6 +14,7 @@
         <p class="mb-4">{{product.descripcion}}</p>
         <button v-on:click="addToCar()" class="button is-success">Agregar al Carrito</button>
       </div>
+      <h1 class="title">{{$store.getters.mensaje}}</h1>
     </div>
   </layout>
 </template>
@@ -64,7 +65,7 @@ export default {
           this.loading = false
           this.errored = false
           if (response.data === 'OK') {
-            // alert('Articulo ' + this.product.nombre + ' agregado al carrito')
+            this.$store.dispatch('updateCarAction')
           } else {
             alert(response.data)
             console.log(response.data)

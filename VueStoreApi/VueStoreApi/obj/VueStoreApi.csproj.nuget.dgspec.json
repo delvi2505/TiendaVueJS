@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj": {}
+    "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj": {
+    "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
         "projectName": "VueStoreApi",
-        "projectPath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
+        "projectPath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
         "packagesPath": "C:\\Users\\Desarrollo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\obj\\",
+        "outputPath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

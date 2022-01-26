@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ERz5r7JdfBYZf92s05vMAvGrK7saQgD206rjiyCLnq5mN+aXRRMd0wMgHE9FkLhQRCtxVBTTFu0Oy68dF0A8MQ==",
+  "dgSpecHash": "JpJbTeILczpJ7T/nTp5mgZMDO76gD1tiMlBKdxdw+4L1KbCvZ0YCPx+y7Y+N19pd///GrG1RZL9miNkyWW0aow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\Tienda\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
+  "projectFilePath": "C:\\Users\\Desarrollo\\Desktop\\Projects\\TiendaVueJS\\VueStoreApi\\VueStoreApi\\VueStoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desarrollo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Desarrollo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
